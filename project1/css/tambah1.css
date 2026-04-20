@@ -1,0 +1,51 @@
+/* --- STYLE HALAMAN DETAIL --- */
+
+.detail-img-wrapper {
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.detail-img-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Tombol Tambah (Hijau) */
+.btn-tambah {
+    background-color: #28A745 !important;
+    color: white !important;
+    padding: 8px 25px !important;
+    border-radius: 5px !important;
+    font-weight: 600;
+}
+
+/* Tombol Kurang (Merah) */
+.btn-kurang {
+    background-color: #DC3545 !important;
+    color: white !important;
+    padding: 8px 25px !important;
+    border-radius: 5px !important;
+    font-weight: 600;
+}
+
+/* Tombol Kembali (Abu-abu Tua) */
+.btn-kembali {
+    background-color: #666666 !important;
+    color: white !important;
+    padding: 8px 30px !important;
+    border-radius: 5px !important;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-kembali:hover {
+    background-color: #444444 !important;
+}
+
+/* Memastikan teks stok dan judul tebal */
+h2, h3 {
+    font-family: 'Inter', sans-serif;
+    color: #000;
+}

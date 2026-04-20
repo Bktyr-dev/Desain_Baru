@@ -1,0 +1,63 @@
+
+        body {
+            background-color: #f4f1ea;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Custom Sidebar */
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            background: linear-gradient(180deg, #6bb36a 0%, #3a6f46 100%);
+            position: fixed;
+            color: white;
+            z-index: 100;
+        }
+
+        .sidebar .nav-link {
+            color: rgba(255, 255, 255, 0.8);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 20px;
+            transition: 0.3s;
+        }
+
+        .sidebar .nav-link:hover,
+        .sidebar .nav-link.active {
+            color: white;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+        }
+
+        /* Content Adjustment */
+        .main-content {
+            margin-left: 250px;
+            padding: 30px;
+        }
+
+        /* Custom Promo Banner */
+        .promo-banner {
+            background-color: #7cc043;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .card-img-top {
+            height: 180px;
+            object-fit: contain;
+            padding: 15px;
+            background-color: #f8f9fa;
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            .main-content {
+                margin-left: 0;
+            }
+        }

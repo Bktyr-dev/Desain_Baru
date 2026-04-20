@@ -1,0 +1,57 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #C1C1B8; /* Latar belakang abu-abu sesuai dashboard */
+    margin: 0;
+}
+
+
+.register-box {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 450px; /* Sedikit lebih lebar dari login untuk kenyamanan input */
+}
+
+.brand-color {
+    color: #5D8F36;
+}
+
+
+.custom-input {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 12px 15px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.custom-input:focus {
+    border-color: #79AC31;
+    box-shadow: 0 0 0 0.25rem rgba(121, 172, 49, 0.2);
+    background-color: #fff;
+}
+
+
+.btn-register {
+    background-color: #79AC31;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn-register:hover {
+    background-color: #5D8F36;
+    color: white;
+    transform: translateY(-2px);
+}
+
+
+.brand-link {
+    color: #79AC31;
+}
+
+.brand-link:hover {
+    text-decoration: underline !important;
+}
